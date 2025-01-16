@@ -1,21 +1,50 @@
-nav{
+body{
+    background-image: url( web-dev-portfolio/images/header_bg.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+    margin-left: 125px;
+    padding-top: 15px;
+}
+.name{
+    font-size: 45px;
+}
+.hero{
     display: flex;
+    
     justify-content: space-between;
+
 }
-a{
-    color: black;
-    text-decoration: none;
+span{
+    color: orangered;
 }
-.in{display: flex;
-    flex-direction: column;
-    width: 70%;
-    
-    
-}
-input{
-    margin-top: 20px;
-}
-.just{
+.nav{
     display: flex;
-    justify-content: center;
+    gap:15px;
+    padding-right: 125px;
+    color: gray;
 }
+.b1{
+    font-size: 11px;
+    background-color: orangered;
+    color: white;
+    padding: 15px;
+    width: 95px;
+    height: 55px;
+    font-size: 15px;
+    border-radius: 15px;
+}
+.b2{
+    display: flex;
+    padding:15px ;
+    
+    font-size: 17px;
+    font-weight: 400;
+    width: 175px;
+    background-color: orangered;
+    color: white;
+border-radius: 25px;
+
+}
+.icon{
+   width: 25px;}
